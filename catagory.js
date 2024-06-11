@@ -43,6 +43,7 @@ for (let file of catagoryData.files) {
     }
     const description = file.desc || "No description logged.";
     const filename = catagoryName + "/" + file.filename;
+    const fileType = (file.type || catagoryData.type);
 
     nameEl.innerHTML = name;
     descEl.innerHTML = `Date: ${date}<br>${description}`;
@@ -50,7 +51,7 @@ for (let file of catagoryData.files) {
     parentEl.appendChild(nameEl);
     parentEl.appendChild(descEl);
     
-    if (catagoryData.type == "mp3") {
+    if (fileType == "mp3") {
         let audioEl = document.createElement("audio");
         let songEl = document.createElement("source");
         audioEl.setAttribute("controls", "true");
@@ -59,9 +60,20 @@ for (let file of catagoryData.files) {
         audioEl.appendChild(songEl);
         parentEl.appendChild(audioEl);
     }
-
+    else if (fileType == "download") {
+        let downloadEl = document.createElement("a");
+        downloadEl.setAttribute("href", filename);
+        downloadEl.setAttribute("download", "");
+        downloadEl.innerText = filename.split("/")[1];
+        parentEl.appendChild(downloadEl);
+    }
     fileListEl.appendChild(parentEl);
     //alert(name + date + description + filename);jj
+    /*
+your not the sigma gigachad
+bro your selling the whole company
+you say your cooking. you're cooking who? noone.
+    */
 }
 
 /*

@@ -52,5 +52,26 @@ let catagories = [
                 "filename": "8.mp3"
             }
         ]
+    },
+    {
+        "displayName" : "My Programs",
+        "name" : "programming",
+        "desc" : "Cool people love programming. yes",
+        "default_name" : "Unnamed Program",
+        "type" : "html",
+        "files" : [
+            {
+                "filename": "kermitscoming.py",
+                "type": "download",
+                "name": "Kermit The Frog Choose Your Own Adventure Horror Game",
+                "desc": "The title says it all. But like the code is neat and expandable and cool."
+            },
+            {
+                "filename": "bfinterpreter/",
+                "type": "download",
+                "name": "An interpreter for the esolang brainfuck.",
+                "desc": "hello."
+            }
+        ]
     }
 ];
