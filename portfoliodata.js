@@ -67,10 +67,40 @@ let catagories = [
                 "desc": "The title says it all. But like the code is neat and expandable and cool."
             },
             {
-                "filename": "bfinterpreter/",
+                "filename": "bfinterpreter.zip",
                 "type": "download",
                 "name": "An interpreter for the esolang brainfuck.",
                 "desc": "hello."
+            },
+            {
+                "filename": "spiral.py",
+                "type": "download",
+                "name": "A math spiral generator thing with polar coordinates i guess inspired by a 3b1b video i think",
+                "desc": "oops, i described everything above"
+            },
+            {
+                "filename": "pongmachinelearning.zip",
+                "type": "download",
+                "name": "Pong machine learning NEAT thing",
+                "desc": "My coding instructor coded 90% of this. <br>Warning! Buggy code ahead <a href = 'hostWebsites/pongmachinelearning/index.html'>Open Here</a>"
+            },
+            {
+                "filename": "abstractArtGen.zip",
+                "name": "An abstract art circler",
+                "desc": "yes. <a href = 'hostWebsites/abstractArtGenerator/index.html'>Open Here</a>",
+                "type": "download"
+            },
+            {
+                "filename": "blackjack.py",
+                "name": "Blackjack optimal play graph",
+                "desc": "yes.",
+                "type": "download"
+            },
+            {
+                "filename": "russian_roulette.py",
+                "name": "Russian Roulette Program",
+                "desc": "(it has a 1/6 chance of deleting your files. ACTUALLY DANGEROUS. Works in vscode or some other terminals, but not in some IDE's)",
+                "type": "download"
             }
         ]
     }
