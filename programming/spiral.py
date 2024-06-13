@@ -25,6 +25,15 @@ pressingB = False
 # Function to generate N prime numbers using 
 # Sieve of Eratosthenes
 
+#generateComposites
+#generatePrimes
+#generateConstantDistance
+#generateFromText
+#generateFibinochi
+#generateMultiplicativeDistance
+#generateMultidimensionalMultiplicativeDistance
+#generateRandomness
+
 def generateComposites(primes_):
     global numbers
     numbers_ = []
@@ -125,16 +134,21 @@ def generateRandomness(repeats):
     global numbers
     numbers += [random.randint(0,10000000) for i in range(repeats)]
 
+
+
 #generatePrimes(100000)
 #generateConstantDistance(1000000,22/7)
 #generateRandomness(100000)
 #generateFromText("Minecraft Gaming all day and all night!",10000,10) very good on etrust me
-generateFromText("Minecraft gaming all day and all right!", 10000,10)
+#generateFromText("Minecraft gaming all day and all right!", 10000,10)
 #generateComposites(5000)
 #generateConstantDistance(10000000, random.randint(0,100))
 #generateFibinachi(1000)
 
 #generateComposites(100000)
+
+generateFromText("Spiral Generator. FPS: 30",10000,10)
+#generateRandomness(100000)
 
 numbers.sort()
 
