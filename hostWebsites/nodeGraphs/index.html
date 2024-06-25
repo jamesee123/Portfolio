@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Minecraft Crafting Calculator</title>
+	<link rel="stylesheet" href = "style.css"></link>
+    <script src="gpu.js"></script>
+	<script src = "nodeLib/graph.js"></script>
+	<script src = "nodeLib/render.js"></script>
+    <script src="https://html2canvas.hertzen.com/dist/html2canvas.min.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/gpu.js@2.10.0/dist/gpu-browser.min.js"></script>
+	<!--<link rel="icon" type="image/x-icon" href="knowledge_book.ico">-->
+	<!--<script src="https://cdnjs.cloudflare.com/ajax/libs/sigma.js/2.4.0/sigma.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/graphology/0.25.4/graphology.umd.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/graphology-layout-circular/0.5.0/graphology-layout-circular.umd.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/graphology-layout-force/0.4.0/graphology-layout-force.umd.min.js"></script>
+	<script src="graph">-->
+</head>
+<body>
+	Spring Physics: <br>
+	<input id = "spring-enabled" name = "spring-enabled" type="checkbox"/>
+	<label for = "spring-enabled">Enabled</label><br>
+	<input id = "spring-force" name = "spring-force" type = "number"/>
+	<label for = "spring-force">Force Per Pixel</label><br>
+	<input id = "spring-extend" name = "spring-extend" type = "number"/>
+	<label for = "spring-extend">Extension Distance</label><br>
+	<input id = "spring-contract" name = "spring-contract" type = "number"/>
+	<label for = "spring-contract">Contraction Distance</label><br>
+	<input id = "spring-fpu" name = "spring-fpu" type = "number"/>
+	<label for = "spring-fpu">Frames per Update (physics scales with FPU)</label><br>
+	Magnetism Physics: <br>
+	<input id = "magnetism-enabled" name = "magnetism-enabled" type="checkbox"/>
+	<label for = "magnetism-enabled">Enabled</label><br>
+	<input id = "magnetism-eforce" name = "magnetism-eforce" type = "number"/>
+	<label for = "magnetism-eforce">Force Per Pixel (extension)</label><br>
+	<input id = "magnetism-cforce" name = "magnetism-cforce" type = "number"/>
+	<label for = "magnetism-cforce">Force Per Pixel (contraction)</label><br>
+	<input id = "magnetism-extend" name = "magnetism-extend" type = "number"/>
+	<label for = "magnetism-extend">Extension Distance</label><br>
+	<input id = "magnetism-contract" name = "magnetism-contract" type = "number"/>
+	<label for = "magnetism-contract">Contraction Distance</label><br>
+	<input id = "magnetism-fpu" name = "magnetism-fpu" type = "number"/>
+	<label for = "magnetism-fpu">Frames per Update (physics scales with FPU)</label><br>
+	<canvas width = "1000" height = "600" id = "canvas"></canvas> <br>
+	Display Settings: <br>
+	<input id = "scale" name = "scale" type="number"/>
+	<label for = "scale">Scale</label><br>
+	<input id = "draw-names" name = "draw-names" type="checkbox"/>
+	<label for = "draw-names">Draw Names</label><br>
+	<input id = "draw-arrows" name = "draw-arrows" type="checkbox"/>
+	<label for = "draw-arrows">Draw Arrows</label><br>
+	<input id = "fill-arrows" name = "fill-arrows" type="checkbox"/>
+	<label for = "fill-arrows">Fill Arrows</label><br>
+	<input id = "draw-edges" name = "draw-edges" type="checkbox"/>
+	<label for = "draw-edges">Draw Edges</label><br>
+	<button id = "start">Start The Unit Test</button>
+	<script src="unitTesting.js"></script>
+</body>
+</html>
+<!--Can we drift in a Tesla? Did you press a customer service button?-->

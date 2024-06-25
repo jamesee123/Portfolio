@@ -101,6 +101,12 @@ let catagories = [
                 "name": "Russian Roulette Program",
                 "desc": "(it has a 1/6 chance of deleting your files. ACTUALLY DANGEROUS. Works in vscode or some other terminals, but not in some IDE's)",
                 "type": "download"
+            },
+            {
+                "filename": "nodeGraphs.zip",
+                "name": "Node Graph GPU cool",
+                "desc": "it does the gpu node graph. <a href = 'hostWebsites/nodeGraphs/index.html'>Open Here</a>",
+                "type": "download"
             }
         ]
     }
