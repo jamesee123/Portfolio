@@ -106,7 +106,8 @@ let catagories = [
                 "filename": "nodeGraphs.zip",
                 "name": "Node Graph GPU cool",
                 "desc": "it does the gpu node graph. <a href = 'hostWebsites/nodeGraphs/index.html'>Open Here</a>",
-                "type": "download"
+                "type": "download",
+                "date": new Date(2024, 6, 25)
             }
         ]
     }
