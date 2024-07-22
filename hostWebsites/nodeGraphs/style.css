@@ -1,0 +1,8 @@
+body {
+    color: aliceblue;
+    background-color:hsl(267, 58%, 7%);
+}
+
+#createIngredientNetwork {
+    object-fit: contain;
+}
