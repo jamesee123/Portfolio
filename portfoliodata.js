@@ -50,6 +50,10 @@ let catagories = [
             },
             {
                 "filename": "8.mp3"
+            },
+            {
+                "filename": "epicqwerty.m4a",
+                "date": new Date(2024, 7, 22)
             }
         ]
     },
@@ -101,6 +105,13 @@ let catagories = [
                 "name": "Russian Roulette Program",
                 "desc": "(it has a 1/6 chance of deleting your files. ACTUALLY DANGEROUS. Works in vscode or some other terminals, but not in some IDE's)",
                 "type": "download"
+            },
+            {
+                "filename": "markovChains.py",
+                "name": "Markov Chains text generator",
+                "desc": "yes",
+                "type": "download",
+                "date": new Date(2024, 7, 22)
             }
         ]
     }

