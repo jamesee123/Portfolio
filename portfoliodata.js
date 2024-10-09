@@ -65,8 +65,16 @@ let catagories = [
         "type" : "html",
         "files" : [
             {
+                "date": new Date(2024, 10, 8),
+                "name": "Cell Sim Javascript Library",
+                "type": "download",
+                "desc": "pretty short program but pretty extendable and well written.",
+                "filename": "cellsimlibrary.js"
+            },
+            {
                 "date": new Date(2024, 7, 22),
                 "name": "node grpahs",
+                "type": "download",
                 "filename": "nodeGraphs.zip",
                 "desc": "node graphs <a href = 'hostWebsites/nodeGraphs/unitTesting.html'>Open Here</a>"
             },
