@@ -40,7 +40,7 @@ static_colors = {
 
 let MAZE_CANT_DESTROY = ["Start", "PathPlan", "Retrace", "Obsidian"]
 let LAVA_CANT_DESTROY = ["Obsidian","Lava"]
-let WATER_CANT_DESTROY = ["Start", "PathPlan", "Retrace", "Obsidian"]
+let WATER_CANT_DESTROY = ["Start", "PathPlan", "Retrace", "Obsidian","Water"]
 let EXPLOSION_CANT_DESTROY = ["Lava", "Water", "Obsidian"]
 let startHue = 0;
 
