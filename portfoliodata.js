@@ -65,6 +65,11 @@ let catagories = [
         "type" : "html",
         "files" : [
             {
+                "date": new Date(2024, 10, 9),
+                "name": "Maze Generator with other features",
+                "desc": "Open here <a href = 'hostWebsites/MazeGenerator/index.html'>Open Here</a>"
+            },
+            {
                 "date": new Date(2024, 10, 8),
                 "name": "Cell Sim Javascript Library",
                 "type": "download",
