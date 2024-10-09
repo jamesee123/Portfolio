@@ -29,7 +29,6 @@ class Board {
                 this.grid[i].push(new Cell((this.cellTypes["Blank"]), i, j, this));
             }
         }
-        this.mazeDimensions = mazeDimensions;
     }
 
     setCell(x,y,cellType) {
