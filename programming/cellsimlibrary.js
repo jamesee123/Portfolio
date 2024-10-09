@@ -31,8 +31,8 @@ class Board {
         }
     }
 
-    setCell(x,y,cellType) {
-        this.board[x][y] = new Cell(cellType);
+    setCell(x,y,typeName) {
+        this.board[x][y] = new Cell(this.cellTypes[typeName]);
     }
 
     addCellType(cellType) {
