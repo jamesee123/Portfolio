@@ -1,5 +1,5 @@
 class CellType {
-    constructor(update, instantiation, name) {
+    constructor(name, update, instantiation) {
         this.update = update;
         this.name = name;
         this.instantiation = instantiation;
