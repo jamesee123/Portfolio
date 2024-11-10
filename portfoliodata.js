@@ -92,7 +92,7 @@ let catagories = [
             {
                 "filename": "bfinterpreter.zip",
                 "type": "download",
-                "name": "An interpreter for the esolang brainfuck.",
+                "name": "An interpreter for the esolang bf.",
                 "desc": "hello."
             },
             {
