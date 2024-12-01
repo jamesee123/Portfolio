@@ -24,7 +24,7 @@ function sortDate(a, b) {
         dateB = new Date();
     }
 
-    return dateB - dateA;
+    return dateA - dateB;
 }
 
 catagoryData.files.sort(sortDate);
