@@ -13,7 +13,6 @@ titleAreaEl.appendChild(titleEl);
 titleAreaEl.appendChild(descEl);
 
 function sortDate(a, b) {
-    console.log(a,b);
     let dateA = a.date;
     let dateB = b.date;
 
@@ -35,7 +34,6 @@ for (let file of catagoryData.files) {
     let nameEl = document.createElement("h3");
     let descEl = document.createElement("p");
 
-    console.log(catagoryData.default_name);
     const name = file.name || catagoryData.default_name;
     let date = file.date || "Predates Website";
     if (date != "Predates Website") {
