@@ -17,13 +17,13 @@ function sortDate(a, b) {
     let dateB = b.date;
 
     if (dateA == undefined){
-        dateA = new Date();
+        dateA = new Date(0);
     }
     if (dateB == undefined){
-        dateB = new Date();
+        dateB = new Date(0);
     }
 
-    return dateA - dateB;
+    return dateB-dateA;
 }
 
 catagoryData.files.sort(sortDate);
@@ -66,17 +66,4 @@ for (let file of catagoryData.files) {
         parentEl.appendChild(downloadEl);
     }
     fileListEl.appendChild(parentEl);
-    //alert(name + date + description + filename);jj
-    /*
-your not the sigma gigachad
-bro your selling the whole company
-you say your cooking. you're cooking who? noone.
-    */
 }
-
-/*
-Dan the Man
-Benjamin the Baker
-
-Floor 5 - 13
-Murray*/
